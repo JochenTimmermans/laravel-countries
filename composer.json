@@ -19,11 +19,11 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"JochenTimmermans\\LaravelCountries\\LaravelCountriesServiceProvider"
+				"JochenTimmermans\\LaravelCountries\\Providers\\LaravelCountriesServiceProvider"
 			]
 		},
 		"branch-alias": {
-			"dev-master": "0.0.1-dev"
+			"dev-master": "0.0.3"
 		}
 	}
 }

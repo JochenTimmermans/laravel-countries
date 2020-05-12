@@ -1,6 +1,6 @@
 <?php
 
-namespace JochenTimmermans\LaravelCountries;
+namespace JochenTimmermans\LaravelCountries\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
