@@ -1,0 +1,29 @@
+{
+	"name": "jochentimmermans/laravel-countries",
+	"description": "A Laravel Countries seeder",
+	"type": "library",
+	"license": "GNUGPLv3",
+	"authors": [
+		{
+			"name": "Jochen Timmermans",
+			"email": "jochentimmermans@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"JochenTimmermans\\LaravelCountries\\": "packages/jochentimmermans/laravel-countries/src"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"JochenTimmermans\\LaravelCountries\\LaravelCountriesServiceProvider"
+			]
+		},
+		"branch-alias": {
+			"dev-master": "1.0-dev"
+		}
+	}
+}
