@@ -13,7 +13,7 @@
 	"require": {},
 	"autoload": {
 		"psr-4": {
-			"JochenTimmermans\\LaravelCountries\\": "packages/jochentimmermans/laravel-countries/src"
+			"JochenTimmermans\\LaravelCountries\\": "src/"
 		}
 	},
 	"extra": {
@@ -23,7 +23,7 @@
 			]
 		},
 		"branch-alias": {
-			"dev-master": "0.1-stable"
+			"dev-master": "0.0.1-dev"
 		}
 	}
 }
