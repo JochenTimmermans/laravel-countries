@@ -13,7 +13,7 @@ class LaravelCountriesServiceProvider extends ServiceProvider
 	 */
 	public function boot()
 	{
-
+		$this->loadMigrationsFrom(__DIR__.'/database/migrations');
 	}
 
 	/**
@@ -23,6 +23,5 @@ class LaravelCountriesServiceProvider extends ServiceProvider
 	 */
 	public function register()
 	{
-		$this->loadMigrationsFrom(__DIR__ . '/database/migrations');
 	}
 }
