@@ -2,7 +2,7 @@
 	"name": "jochentimmermans/laravel-countries",
 	"description": "A Laravel Countries seeder",
 	"type": "library",
-	"license": "GNUGPLv3",
+	"license": "GPL-3.0-or-later",
 	"authors": [
 		{
 			"name": "Jochen Timmermans",
